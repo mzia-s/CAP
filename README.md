@@ -1,6 +1,6 @@
 # CAP
 
-**Title** - CAP: Commutative Algebra Prediction of Protein-Nucleic Acid Binding AffinitieS.
+**Title** - CAP: Commutative Algebra Prediction of Protein-Nucleic Acid Binding Affinities.
 
 **Authors** - Mushal Zia, Faisal Suwayyid, Yuta Hozumi, JunJie Wee, Hongsong Feng, and Guo-Wei Wei.
 
@@ -14,7 +14,7 @@
 - [Prerequisites](#prerequisites)
 - [Datasets](#datasets)
 - [Modeling with PSRT-based features](#Modeling-with-PSRT-based-features)
-    - [Generation of PSRT-based features for protein-nucleic ccid complex](#II-Generation-of-PSRT-based-features-for-protein-ligand-complex)
+    - [Generation of PSRT-based features for protein-nucleic acid complex](#II-Generation-of-PSRT-based-features-for-protein-ligand-complex)
 
 - [Results](#results)
 - [License](#license)
