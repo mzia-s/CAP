@@ -74,11 +74,11 @@ The S186 dataset was curated from [Shen2023].
 ```shell
 mkdir -p 1HVO_pointclouds_k1
 ```
-#### 2. Generate 1-mer k-mer point clouds from the FASTA file
+#### 2. Generate 1-mer point clouds from the FASTA file
 ```shell
 python DNA_feature_extraction.py clouds . 1HVO_pointclouds_k1 --k 1
 ```
-#### 3. Extract facet-curve and rate features
+#### 3. Extract facet ideals
 The below settings will generate a total of 1200 features. 
 ```shell
 python DNA_feature_extraction.py features 1HVO_pointclouds_k1 1HVO_k1_facet.csv \
