@@ -53,13 +53,15 @@ Invariant on the N2-U.S-P primer sequence is shown below.
 
 ## Datasets
 
-A brief description of the datasets used in this study.
+Sequence-based representations of proteins and DNA/RNA, along with their corresponding binding affinity labels, are provided in this repository.
 
-| Dataset | Type | Number of Complexes | Download |
-|---------|------|---------------------|----------|
-| S186    | Protein-Nucleic Acid | 186 | [data](./Datasets/S186.csv) |
-| S142    | Protein–RNA           | 142 | [data](./Datasets/S142.csv) |
-| S322    | Protein-Nucleic Acid           | 322 | [data](./Datasets/S322.csv) |
+Datasets used in this study:
+
+| Dataset | Type                 | Number of Complexes | Download                     |
+|---------|----------------------|---------------------|------------------------------|
+| S186    | Protein–Nucleic Acid | 186                 | [data](./Datasets/S186.csv) |
+| S142    | Protein–RNA          | 142                 | [data](./Datasets/S142.csv) |
+| S322    | Protein–DNA          | 322                 | [data](./Datasets/S322.csv) |
 
 ---
 
@@ -72,7 +74,6 @@ python src/build_model.py --dataset_name v2016
 ### II. Generation of sequence-based features for protein and small molecules
 Protein sequence embeddings were generated with [Transformer Protein language model ESM2](https://github.com/facebookresearch/esm) [Rives2021].
 
-Small molecular sequence embeddings were generated with [Transformer small molecule language model](https://github.com/WeilabMSU/PretrainModels) [Chen2021]. The input small molecular sequence is SMILES string. Instructions on molecular descriptors using this language model is provided in the github.
 
 ## Results
 
