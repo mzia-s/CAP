@@ -63,6 +63,7 @@ Datasets used in this study:
 | S142    | Protein–RNA          | 142                 | [data](./Datasets/S142.csv) |
 | S322    | Protein–DNA          | 322                 | [data](./Datasets/S322.csv) |
 
+The S186 dataset was curated from [Shen2023].
 ---
 
 ## Modeling with PSRT-based features using CAP pipeline
@@ -101,5 +102,15 @@ Protein sequence embeddings were generated with [Transformer Protein language mo
 ---
 
 ## Citation
-- [Rives2021] Rives, Alexander, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo et al. "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences." Proceedings of the National Academy of Sciences 118, no. 15 (2021): e2016239118.
+- [Shen2023] Shen, Li, Hongsong Feng, Yuchi Qiu, and Guo-Wei Wei.  
+  "SVSBI: sequence-based virtual screening of biomolecular interactions."  
+  *Communications Biology* 6, no. 1 (2023): 536.  
+  [https://doi.org/10.1038/s42003-023-05084-0](https://doi.org/10.1038/s42003-023-05084-0)
+
+- [Rives2021] Rives, Alexander, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo et al.  
+  "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences."  
+  *Proceedings of the National Academy of Sciences* 118, no. 15 (2021): e2016239118.  
+  [https://doi.org/10.1073/pnas.2016239118](https://doi.org/10.1073/pnas.2016239118)
+
+
 ---
