@@ -68,9 +68,7 @@ Datasets used in this study:
 ## Modeling with PSRT-based features
 
 ### I. Build machine learning models using PSRT-based features.
-```shell
-python src/build_model.py --dataset_name v2016
-```
+
 ### II. Generation of sequence-based features for protein and small molecules
 Protein sequence embeddings were generated with [Transformer Protein language model ESM2](https://github.com/facebookresearch/esm) [Rives2021].
 
@@ -90,4 +88,5 @@ Protein sequence embeddings were generated with [Transformer Protein language mo
 ---
 
 ## Citation
-
+- [Rives2021] Rives, Alexander, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo et al. "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences." Proceedings of the National Academy of Sciences 118, no. 15 (2021): e2016239118.
+---
