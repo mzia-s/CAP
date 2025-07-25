@@ -77,15 +77,15 @@ Protein sequence embeddings were generated with [Transformer Protein language mo
 
 ## Results
 
-### I. Modeling the (Metallo)protein-ligand datasets
+### I. Modeling the Protein–Nucleic Acid Datasets
 
-|Datasets                                        | Training Set                  | Test Set| PCC | RMSE (kcal/mol) |
-|-------------------------------------------------|-------------                  |---------|-    |-                |
-| PDBbind-v2016 [result](./Results)      |  3767 | 290 | 0.858 |  1.673|
-| Metalloprotein-ligand [result](./Results) |1845| 618 | 0.745/0.755 |  1.947|
+| Dataset | Training Set | Test Set | PCC  | RMSE (kcal/mol) |  
+|---------|--------------|----------|------|------------------|  
+| S186 [result](./Results) | – | 186 | 0.653 | 2.18 |  
+| S142 [result](./Results) | – | 142 | 0.653 | 2.18 |  
+| S322 [result](./Results) | – | 322 | 0.669 | 2.00 |
 
-
-Note, twenty gradient boosting regressor tree (GBRT) models were built for each dataset with 20 indenpedent runs with different random numbers. The PSRT-based features and transformer-based features were paired with GBRT, respectively. The predictions can be found in the [results](./Results) folder. 
+> Note: Predictions were made using Gradient Boosting Regressor Tree (GBRT) models trained on sequence-based features extracted from protein and nucleic acid sequences. Each dataset was evaluated using independently trained models under 20 random initializations. The predictions for all three datasets can be found in the [results](./Results) folder.
 
 ---
 
