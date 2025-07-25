@@ -35,7 +35,7 @@ An accurate prediction of protein-nucleic acid binding affinity is vital for dec
 An illustration of the comparison between Persistent Homology and Persistent Stanley-Reisner
 Invariant on the N2-U.S-P primer sequence is shown below.
 
-![Model Implementation](src/covid.png)
+![Model Implementation](covid.png)
 
 ---
 
@@ -69,15 +69,15 @@ Datasets used in this study:
 
 ### I. Build machine learning models using PSRT-based DNA/RNA features using the sequence only.
 
-# 1. Create output folder for point clouds
+### 1. Create output folder for point clouds
 ```shell
 mkdir -p 1HVO_pointclouds_k1
 ```
-# 2. Generate 1-mer k-mer point clouds from the FASTA file
+### 2. Generate 1-mer k-mer point clouds from the FASTA file
 ```shell
 python DNA_feature_extraction.py clouds . 1HVO_pointclouds_k1 --k 1
 ```
-# 3. Extract facet-curve and rate features
+### 3. Extract facet-curve and rate features
 ```shell
 python DNA_feature_extraction.py features 1HVO_pointclouds_k1 1HVO_k1_facet.csv \
     --k 1 --max-dim 2 --num-samples 50
