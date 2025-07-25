@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 """
-dna_feature_extraction.py
+DNA_feature_extraction.py
 =========================
 
 * Point-cloud generation  →  *.npz
-* Facet-curve extraction  →  *.csv
+* Facet-curve & rates extraction  →  *.csv
 
-Only the DNA side of CAP is released; protein embeddings were obtained
-externally (see the paper).  Run ``python dna_feature_extraction.py --help``
+Only the DNA feature extraction is released in this code.  Run ``python DNA_feature_extraction.py --help``
 for usage.
 """
 from __future__ import annotations
