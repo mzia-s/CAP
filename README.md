@@ -89,15 +89,5 @@ Note, twenty gradient boosting regressor tree (GBRT) models were built for each 
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Citation
 
-- [Jiang2023] Dejun Jiang, Zhaofeng Ye, Chang-Yu Hsieh, Ziyi Yang, Xujun Zhang, Yu Kang, Hongyan Du, Zhenxing Wu, Jike Wang, Yundian Zeng, et al. Metalprognet: a structure-based deep graph model for metalloprotein–ligand interaction predictions. Chemical Science, 14(8):2054–2069, 2023.
-- [Chen2021] Dong Chen, Jiaxin Zheng, Guo-Wei Wei, and Feng Pan. Extracting predictive representations from hundreds of millions of molecules. The Journal of Physical Chemistry Letters, 12(44):10793–10801, 2021.
-- [Rives2021] Rives, Alexander, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo et al. "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences." Proceedings of the National Academy of Sciences 118, no. 15 (2021): e2016239118.
----
