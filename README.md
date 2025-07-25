@@ -35,8 +35,7 @@ An accurate prediction of protein-nucleic acid binding affinity is vital for dec
 An illustration of the comparison between Persistent Homology and Persistent Stanley-Reisner
 Invariant on the N2-U.S-P primer sequence is shown below.
 
-![Model Implementation](covid.png)
-
+![Model Implementation](src/covid.png)
 
 ---
 
