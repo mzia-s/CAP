@@ -63,7 +63,6 @@ Datasets used in this study:
 | S322    | Protein–DNA          | 322                 | [data](./Datasets/S322.csv) |
 
 The S186 dataset was curated from [Shen2023].
-
 ---
 
 ## Modeling with PSRT-based features using CAP pipeline
