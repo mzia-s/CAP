@@ -53,17 +53,14 @@ Invariant on the N2-U.S-P primer sequence is shown below.
 
 ## Datasets
 
-A brief introduction about the benchmark datasets.
+A brief description of the datasets used in this study.
 
-| Datasets                |Total    | Training Set                 | Test Set                                             |
-|-|-----------------------------|------------------------------|------------------------------                        |
-| PDBbind-v2016       |4057 [data](./dataset)|3767  [data](./dataset)                        | 290 [data](./dataset)                         |
-| Metalloprotein-ligand       |2463 [data](./dataset)|1845  [data](https://weilab.math.msu.edu/Downloads/PSRT/PDBbind.zip)                        | 618 [data](./dataset)                         |
+| Dataset | Type | Number of Complexes | Download |
+|---------|------|---------------------|----------|
+| S186    | Protein-Nucleic Acid | 186 | [data](./Datasets/S186.csv) |
+| S142    | Protein–RNA           | 142 | [data](./Datasets/S142.csv) |
+| S322    | Protein-Nucleic Acid           | 322 | [data](./Datasets/S322.csv) |
 
-
-- PDBbind-v2016: the protein-ligand complex structures. Download from [PDBbind database](http://www.pdbbind.org.cn/)
-- Metalloprotein-ligand: the metalloprotein-ligand complex structures were complied from PDBbind-v2020 ([PDBbind database](http://www.pdbbind.org.cn/)) by [Jiang2023]
-- data: the .csv file, which contains the protein ID and corresponding binding affinity for PDBbind data.
 ---
 
 ## Modeling with PSRT-based features
