@@ -32,8 +32,7 @@ An accurate prediction of protein-nucleic acid binding affinity is vital for dec
 
 ## Model Interpretability
 
-An illustration of the comparison between Persistent Homology and Persistent Stanley-Reisner
-Invariant on the N2-U.S-P primer sequence is shown below.
+An illustration of the comparison between Persistent Homology and Persistent Stanley-Reisner Invariant on the N2-U.S-P primer sequence is shown below.
 
 ![Model Implementation](covid.png)
 
@@ -64,6 +63,7 @@ Datasets used in this study:
 | S322    | Protein–DNA          | 322                 | [data](./Datasets/S322.csv) |
 
 The S186 dataset was curated from [Shen2023].
+
 ---
 
 ## Modeling with PSRT-based features using CAP pipeline
@@ -101,7 +101,13 @@ Protein sequence embeddings were generated with [Transformer Protein language mo
 
 ---
 
-## Citation
+## Citations
+
+- [Suwayyid2025] Faisal Suwayyid and Guo-Wei Wei.  
+  *Persistent Stanley–Reisner Theory*.  
+  arXiv:2503.23482, 2025.  
+  [https://arxiv.org/abs/2503.23482](https://arxiv.org/abs/2503.23482)
+  
 - [Shen2023] Shen, Li, Hongsong Feng, Yuchi Qiu, and Guo-Wei Wei.  
   "SVSBI: sequence-based virtual screening of biomolecular interactions."  
   *Communications Biology* 6, no. 1 (2023): 536.  
