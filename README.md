@@ -75,11 +75,11 @@ Protein sequence embeddings were generated with [Transformer Protein language mo
 
 ### I. Modeling the Protein–Nucleic Acid Datasets
 
-| Dataset | Training Set | Test Set | PCC  | RMSE (kcal/mol) |  
-|---------|--------------|----------|------|------------------|  
-| S186 [result](./Results/S186_predictions.csv) | – | 186 | 0.705 | 1.79 |  
-| S142 [result](./Results/S142_predictions.csv) | – | 142 | 0.653 | 2.18 |  
-| S322 [result](./Results/S322_predictions.csv) | – | 322 | 0.669 | 2.00 |
+| Dataset | Training/Test Set | PCC  | RMSE (kcal/mol) |  
+|---------|----------|------|------------------|  
+| S186 [result](./Results/S186_predictions.csv) | 186 | 0.705 | 1.79 |  
+| S142 [result](./Results/S142_predictions.csv) | 142 | 0.653 | 2.18 |  
+| S322 [result](./Results/S322_predictions.csv) | 322 | 0.669 | 2.00 |
 
 > Note: Predictions were made using Gradient Boosting Regressor Tree (GBRT) models trained on sequence-based features extracted from protein and nucleic acid sequences. Each dataset was evaluated using independently trained models under 20 random initializations. The predictions for all three datasets can be found in the [results](./Results) folder.
 
