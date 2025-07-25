@@ -82,7 +82,7 @@ python DNA_feature_extraction.py clouds . 1HVO_pointclouds_k1 --k 1
 python DNA_feature_extraction.py features 1HVO_pointclouds_k1 1HVO_k1_facet.csv \
     --k 1 --max-dim 2 --num-samples 50
 ```
-#### II. Generation of sequence-based features for proteins
+### II. Generation of sequence-based ESM2 features for proteins
 Protein sequence embeddings were generated with [Transformer Protein language model ESM2](https://github.com/facebookresearch/esm) [Rives2021].
 
 
