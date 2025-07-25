@@ -60,9 +60,10 @@ Datasets used in this study:
 |---------|----------------------|---------------------|------------------------------|
 | S186    | Protein–Nucleic Acid | 186                 | [data](./Datasets/S186.csv) |
 | S142    | Protein–RNA          | 142                 | [data](./Datasets/S142.csv) |
-| S322    | Protein–DNA          | 322                 | [data](./Datasets/S322.csv) |
+| S322    | Protein–DNA          | 322                 | [data](./Datasets/S322.csv) | 
 
 The S186 dataset was curated from [Shen2023].
+
 ---
 
 ## Modeling with PSRT-based features using CAP pipeline
