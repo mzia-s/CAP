@@ -13,12 +13,11 @@
 - [Model Interpretability](#model-Interpretability)
 - [Prerequisites](#prerequisites)
 - [Datasets](#datasets)
-- [Modeling with PSRT-based features](#Modeling-with-PSRT-based-features)
+- [Modeling with PSRT-based features using CAP pipeline](#Modeling-with-PSRT-based-features using CAP pipeline)
     - [Generation of PSRT-based features for protein-nucleic acid complex](#II-Generation-of-PSRT-based-features-for-protein-ligand-complex)
 
 - [Results](#results)
-- [License](#license)
-- [Citation](#citation)
+- [Citation](#citations)
 
 ---
 
