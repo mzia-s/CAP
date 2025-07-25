@@ -79,6 +79,7 @@ mkdir -p 1HVO_pointclouds_k1
 python DNA_feature_extraction.py clouds . 1HVO_pointclouds_k1 --k 1
 ```
 #### 3. Extract facet-curve and rate features
+The below settings will generate a total of 1200 features. 
 ```shell
 python DNA_feature_extraction.py features 1HVO_pointclouds_k1 1HVO_k1_facet.csv \
     --k 1 --max-dim 2 --num-samples 50
