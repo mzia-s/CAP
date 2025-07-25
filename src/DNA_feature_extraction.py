@@ -6,7 +6,7 @@ DNA_feature_extraction.py
 * Point-cloud generation  →  *.npz
 * Facet-curve & rates extraction  →  *.csv
 
-Only the DNA feature extraction is released in this code. Protein sequence embeddings were generated with Transformer Protein language model ESM2. Run ``python DNA_feature_extraction.py --help``
+Only the DNA feature extraction is released in this code. Protein sequence embeddings can be generated with Transformer Protein language model ESM2. Run ``python DNA_feature_extraction.py --help``
 for usage.
 """
 from __future__ import annotations
