@@ -30,13 +30,13 @@ An accurate prediction of protein-nucleic acid binding affinity is vital for dec
 
 ---
 
-## Model Architecture
+## Model Interpretability
 
-An illustration of the filtration process of the persistent commutative algebra is shown below.
+An illustration of the comparison between Persistent Homology and Persistent Stanley-Reisner
+Invariant on the N2-U.S-P primer sequence is shown below.
 
-![Model Architecture](scheme.png)
+![Model Implementation]()
 
-Further explain the details in the [paper](https://github.com/WeilabMSU/CAML), providing context and additional information about the architecture and its components.
 
 ---
 
