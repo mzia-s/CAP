@@ -63,7 +63,7 @@ The S186 dataset was curated from [Shen2023].
 
 ---
 
-## Modeling with PSRT-based features using CAP pipeline
+### I. Modeling with PSRT-based features using CAP pipeline
 
 Codes can be provided upon request. 
 
@@ -73,7 +73,7 @@ Protein sequence embeddings were generated with [Transformer Protein language mo
 
 ## Results
 
-### I. Modeling the Protein–Nucleic Acid Datasets
+### Modeling the Protein–Nucleic Acid Datasets
 
 | Dataset | Training/Test Set | PCC  | RMSE (kcal/mol) |  
 |---------|----------|------|------------------|  
