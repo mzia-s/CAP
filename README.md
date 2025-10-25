@@ -1,6 +1,6 @@
 # CAP
 
-**Title** - CAP: Commutative Algebra Prediction of Protein-Nucleic Acid Binding Affinities.
+### CAP: Commutative Algebra Prediction of Protein-Nucleic Acid Binding Affinities.
 
 **Authors** - Mushal Zia, Faisal Suwayyid, Yuta Hozumi, JunJie Wee, Hongsong Feng, and Guo-Wei Wei.
 
